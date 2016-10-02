@@ -1,2 +1,5 @@
 language: c++
-script: cmake
+script: 
+    - mkdir build
+    - cd build 
+    - cmake ../src && make
