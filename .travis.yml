@@ -3,14 +3,6 @@ dist: trusty
 
 language: c++
 
-addons:
-    apt:
-        packages:
-        - gcc-5
-        - g++-5
-        - gcc-6
-        - g++-6
-            
 
 script: 
     - mkdir build
