@@ -3,8 +3,8 @@ dist: trusty
 
 language: c++
 
-install:
-   - sudo apt-get install libgtest-dev
+before-install:
+    - sudo apt-get install libgtest-dev
 
 compiler:
     - g++
