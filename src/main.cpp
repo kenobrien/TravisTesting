@@ -1,13 +1,9 @@
 #include <iostream>
-#include <array>
+#include "arithmetic.hpp"
+
+
 
 int main(int argc, char *argv[]) {
-	std::array<int, 10> arr;
-	
-	arr.fill(0xff);
-
-	for(auto &i: arr) {
-		std::cout << i << std::endl;
-	}
+	std::cout << "Adding: 7+3: Result: "<< add(7,3)  << std::endl;
 	return 0;
 }
