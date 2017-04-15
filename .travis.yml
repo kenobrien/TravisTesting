@@ -3,6 +3,9 @@ dist: trusty
 
 language: c++
 
+install:
+   - sudo apt-get install libgtest-dev
+
 compiler:
     - g++
     - clang
