@@ -4,6 +4,7 @@ project(TravisTesting)
 set (CMAKE_CXX_STANDARD 11)
 add_executable(TravisTesting main.cpp)
 
+find_package(Threads REQUIRED)
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
 
