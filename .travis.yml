@@ -4,7 +4,7 @@ dist: trusty
 language: c++
 
 install:
-    - sudo apt-get install libgtest-dev
+    - sudo apt-get install libgtest-dev build-essentials
     - cd /usr/src/gtest
     - sudo cmake .
     - sudo make
