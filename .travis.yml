@@ -5,11 +5,6 @@ language: c++
 
 install:
     - sudo apt-get install libgtest-dev build-essential
-    - cd /usr/src/gtest
-    - cmake .
-    - make
-    - sudo mv libg* /usr/local/lib/
-    - cd -
 
 compiler:
     - g++
